@@ -3,8 +3,6 @@ pipeline {
      tools {
         maven 'MAVEN_HOME'
     }
-
-
     stages {
         stage('checkout source code') {
             steps {
@@ -13,7 +11,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                sh 'clean test'
+                sh  'test'
             }
         }
     }
