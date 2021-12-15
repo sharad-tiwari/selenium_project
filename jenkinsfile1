@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+     tools {
+        maven 'MAVEN_HOME'
+    }
+
+
+    stages {
+        stage('checkout source code') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: '632aaccd-fa16-44a7-b500-fcc749200d3d', url: 'https://github.com/sharad-tiwari/selenium_project.git']]])
+            }
+        }
+        stage('test') {
+            steps {
+                sh 'mvn package'
+            }
+        }
+    }
+}

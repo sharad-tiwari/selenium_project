@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24241" started-at="2021-12-15T22:53:46 IST" finished-at="2021-12-15T22:54:10 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24241" started-at="2021-12-15T22:53:46 IST" finished-at="2021-12-15T22:54:10 IST">
+      <class name="com.browserautomation.webapptest">
+        <test-method status="PASS" signature="testlogin1()[pri:0, instance:com.browserautomation.webapptest@587d1d39]" name="testlogin1" duration-ms="14" started-at="2021-12-15T22:53:46 IST" finished-at="2021-12-15T22:53:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin1 -->
+        <test-method status="PASS" signature="testloin2()[pri:0, instance:com.browserautomation.webapptest@587d1d39]" name="testloin2" duration-ms="1" started-at="2021-12-15T22:53:46 IST" finished-at="2021-12-15T22:53:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloin2 -->
+      </class> <!-- com.browserautomation.webapptest -->
+      <class name="com.browserautomation.TC_selenium">
+        <test-method status="PASS" signature="login_Test()[pri:0, instance:com.browserautomation.TC_selenium@58c1670b]" name="login_Test" duration-ms="24193" started-at="2021-12-15T22:53:46 IST" finished-at="2021-12-15T22:54:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test -->
+      </class> <!-- com.browserautomation.TC_selenium -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
